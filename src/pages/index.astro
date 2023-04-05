@@ -1,0 +1,48 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1>Hallo Deutschland</h1>
+
+      <p>
+        Ein Server hier, ein Router da, <br />
+        Ein Netzwerk, das nicht wirklich klar. <br />
+        Die Infrastruktur, sie leidet Not, <br />
+        Die Zukunft bleibet Technik-Tot.
+      </p>
+
+      <p>
+        Die Bürger ächzen, seufzen, klagen,<br />
+        Die Politik, sie wird nichts wagen,<br />
+        Von Zukunft schwärmen, groß und breit, <br />
+        Doch Taten fehlen, oh, wie weit.
+      </p>
+
+      <p>
+        So schreib' ich dieses Lied der Klag', <br />
+        Die IT-Landschaft, ach, sie plag'.<br />
+        Die CDU, sie bleibt der Feind, <br />
+        Bis sie endlich Einsicht zeigt.
+      </p>
+
+      <p>
+        Lasst uns lachen, trotz der Pein, <br />
+        Denn Humor wird Balsam sein. <br />
+        Wir kämpfen weiter, Tag für Tag, <br />
+        Bis der Fortschritt siegen mag.
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
